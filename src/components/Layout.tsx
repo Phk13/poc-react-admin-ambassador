@@ -9,7 +9,6 @@ import { setUser } from '../redux/actions/setUserAction';
 
 const Layout = (props: any) => {
     const [redirect, setRedirect] = useState(false);
-    const [user, setUser] = useState<User | null>(null);
 
     useEffect(() => {
         (
